@@ -22,10 +22,6 @@ Providing automatic filtering of files and directories based on gitignore rules.
 2. Rules from multiple `.gitignore` files are applied in order, with closer `.gitignore` files taking precedence
 3. Any file or directory matching ignore patterns is completely hidden from the MCP client
 
-## Configuration
-
-No additional configuration is required. GitIgnore support is automatically enabled when the server starts.
-
 ## Examples
 
 ### Basic Directory Structure
