@@ -1,17 +1,29 @@
 {
   "name": "mcp-filesystem-extra",
-  "version": "0.0.1",
+  "version": "0.3.0",
   "description": "MCP server for filesystem access",
   "license": "MIT",
   "author": "yx208",
   "homepage": "https://github.com/yx208/mcp-filesystem-extra",
+  "bugs": "https://github.com/yx208/mcp-filesystem-extra/issues",
   "type": "module",
   "bin": {
-    "mcp-server-filesystem": "dist/index.js"
+    "mcp-filesystem-extra": "dist/index.js"
   },
   "files": [
     "dist"
   ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "filesystem",
+    "server",
+    "ignore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yx208/mcp-filesystem-extra.git"
+  },
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
     "prepare": "pnpm build",
