@@ -1,10 +1,12 @@
 # Filesystem-Extra MCP Server
 
-> **Note**: This is a fork of the official [`@modelcontextprotocol/server-filesystem`](https://github.com/modelcontextprotocol/servers) with added `.gitignore` support.
+> **Note**: This is a fork of the official [`@modelcontextprotocol/server-filesystem@0.6.2`](https://github.com/modelcontextprotocol/servers) with added `.gitignore` support.
+
+[MCP Filesystem Document](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem#readme)
 
 ## Overview
 
-The MCP Filesystem Server now includes built-in support for `.gitignore` files, providing automatic filtering of files and directories based on gitignore rules. This feature ensures that sensitive or unnecessary files (such as `node_modules`, build artifacts, or private configuration files) are automatically excluded from MCP client access.
+Providing automatic filtering of files and directories based on gitignore rules. This feature ensures that sensitive or unnecessary files (such as `node_modules`, build artifacts, or private configuration files) are automatically excluded from MCP client access.
 
 ## Features
 
@@ -151,13 +153,6 @@ Automatically protect:
 - Private keys (`*.pem`, `*.key`)
 - Configuration files with secrets
 - Database files
-
-### Documentation Projects
-Automatically exclude:
-- Draft documents
-- Internal notes
-- Build outputs
-- Temporary files
 
 ## Troubleshooting
 

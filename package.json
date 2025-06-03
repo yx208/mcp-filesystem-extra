@@ -1,6 +1,6 @@
 {
   "name": "mcp-filesystem-extra",
-  "version": "0.3.0",
+  "version": "0.6.2",
   "description": "MCP server for filesystem access",
   "license": "MIT",
   "author": "yx208",
