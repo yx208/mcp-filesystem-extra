@@ -22,6 +22,25 @@ Providing automatic filtering of files and directories based on gitignore rules.
 2. Rules from multiple `.gitignore` files are applied in order, with closer `.gitignore` files taking precedence
 3. Any file or directory matching ignore patterns is completely hidden from the MCP client
 
+## Claude desktop
+
+Edit the Claude configuration file `claude_desktop_config.json` and add the following content:
+
+```json
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-filesystem-extra",
+                "<your local path>"
+            ]
+        }
+    }
+}
+```
+
 ## Examples
 
 ### Basic Directory Structure
